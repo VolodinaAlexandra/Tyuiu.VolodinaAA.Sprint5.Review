@@ -11,7 +11,7 @@ namespace Tyuiu.VolodinaAA.Sprint5.TaskReview.V21.Test
         [TestMethod]
         public void CheckLoadDataAndSaveValid()
         {
-            string path = @"C:\DataSprint5\OutPutDataFileTask7V21.txt";
+            string path = @"C:\DataSprint5\OutPutDataFileTask7V21.txt";  
             FileInfo fileInfo = new FileInfo(path);  
             bool fileExists = fileInfo.Exists;
             bool wait1 = true;
