@@ -32,7 +32,7 @@ namespace Tyuiu.VolodinaAA.Sprint5.TaskReview.V21
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = $@"C:\DataSprint5\InPutDataFileTask7V21.txt";
+            string path = $@"C:\DataSprint5\InPutDataFileTask7V21.txt";  
             string pathSaveFile = $@"C:\DataSprint5\OutPutDataFileTask7V21.txt";
 
             Console.WriteLine($"Данные находятся в файле: {path}");

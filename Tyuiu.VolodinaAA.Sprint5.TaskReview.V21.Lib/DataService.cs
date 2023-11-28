@@ -14,7 +14,7 @@ namespace Tyuiu.VolodinaAA.Sprint5.TaskReview.V21.Lib
         {
             string pathSaveFile = @"C:\DataSprint5\OutPutDataFileTask7V21.txt";
 
-            FileInfo fileInfo = new FileInfo(pathSaveFile);
+            FileInfo fileInfo = new FileInfo(pathSaveFile);  
             bool fileExists = fileInfo.Exists;
 
             if (fileExists)
